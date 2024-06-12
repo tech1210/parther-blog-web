@@ -1,0 +1,45 @@
+nav {
+  /* padding: 14px; */
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 100vw;
+}
+
+nav span {
+  color: white;
+}
+
+nav .nav_icon {
+  color: white;
+  margin-top: 7px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  height: 60px;
+}
+
+nav li:first-child {
+  flex-grow: 1;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  margin-left: 20px;
+}
+
+nav li a {
+  color: white;
+}
+
+nav .line {
+  border-bottom: 4px solid transparent;
+}
+
+nav li .line:hover {
+  border-bottom: 4px solid #d4a373;
+  transition: 0.4s;
+}

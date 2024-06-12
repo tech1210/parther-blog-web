@@ -8,22 +8,22 @@ const SocialMedia = () => {
   return (
     <ul className="social_media">
       <li>
-        <a href="#">
+        <a href="/">
           <MdFacebook className="icon" />
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="/">
           <AiOutlineTwitter className="icon" />
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="/">
           <FaYoutube className="icon" />
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="/">
           <RiInstagramFill className="icon" />
         </a>
       </li>

@@ -13,10 +13,10 @@ const Blog = () => {
 
   useEffect(() => {
     const getSingleData = () => {
-      let blogRes = blogsDummyData.find((e) => e.id == id);
+      let blogRes = blogsDummyData.find((e) => e.id === id);
       if (blogRes) setBlog(blogRes);
 
-      let authorRes = usersDummyData.find((e) => e.id == blog.user);
+      let authorRes = usersDummyData.find((e) => e.id === blog.user);
       if (authorRes) setAuthor(authorRes);
     };
     getSingleData();

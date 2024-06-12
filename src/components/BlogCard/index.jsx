@@ -7,7 +7,7 @@ const BlogCard = ({ item }) => {
   const [author, setAuthor] = useState({});
   useEffect(() => {
     const getSingleData = () => {
-      let authorRes = usersDummyData.find((e) => e.id == item.user);
+      let authorRes = usersDummyData.find((e) => e.id === item.user);
       if (authorRes) setAuthor(authorRes);
     };
     getSingleData();

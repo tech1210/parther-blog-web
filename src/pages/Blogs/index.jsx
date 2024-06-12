@@ -1,7 +1,6 @@
 import "./style.css";
 import { Link } from "react-router-dom";
 import blogsDummyData from "../../helper/data/blogs";
-import usersDummyData from "../../helper/data/users";
 import BlogCard from "../../components/BlogCard";
 import { useEffect, useState } from "react";
 

@@ -6,13 +6,20 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { FaYoutube } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FiSearch } from "react-icons/fi";
+import Logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
     <nav>
       <ul>
         <li>
-          <Link to="/">Parther</Link>
+          <Link to="/">
+            <img
+              src={Logo}
+              style={{ height: "50px", color: "#6842FF" }}
+              alt="logo"
+            />
+          </Link>
         </li>
         <li>
           <Link to="/" className="line">
